@@ -29,6 +29,7 @@ public class Client {
         Citation citation1 = (Citation) ois.readObject();
         //释放资源
         ois.close();
+        System.out.println("原型对象的Student对象和克隆出来的Student对象是否是同一个对象？" + (citation1.getStu() == citation.getStu()));
         Student stu = citation1.getStu();
         stu.setName("李四");
 

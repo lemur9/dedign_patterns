@@ -1,15 +1,12 @@
-package org.lemur.principles.demo2.after;
+package org.lemur.principles.demo2.demo1.before;
 
 /**
  * 长方形类
  */
-public class Rectangle implements Quadrilateral {
-
+public class Rectangle {
     private double length;
-
     private double width;
 
-    @Override
     public double getLength() {
         return length;
     }
@@ -18,7 +15,6 @@ public class Rectangle implements Quadrilateral {
         this.length = length;
     }
 
-    @Override
     public double getWidth() {
         return width;
     }

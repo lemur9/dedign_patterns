@@ -1,4 +1,4 @@
-package org.lemur.principles.demo2.before;
+package org.lemur.principles.demo2.demo1.before;
 
 /**
  * 正方形类

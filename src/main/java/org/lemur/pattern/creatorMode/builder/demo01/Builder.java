@@ -15,6 +15,7 @@ public abstract class Builder {
     //构建自行车的方法
     public abstract Bike createBike();
 
+    //也可以不使用指挥者构建产品对象
     public Bike construct() {
         this.buildFrame();
         this.buildSeat();

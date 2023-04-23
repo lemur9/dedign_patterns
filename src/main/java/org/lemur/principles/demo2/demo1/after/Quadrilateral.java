@@ -1,4 +1,4 @@
-package org.lemur.principles.demo2.after;
+package org.lemur.principles.demo2.demo1.after;
 
 /**
  * 四边形
